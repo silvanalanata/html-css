@@ -4,12 +4,9 @@ let imagenes = document.querySelector(".img-izq-discover");
 function cambiarImgen(){
     imagenes.setAttribute('src', 'assets/succulents-2.jpg');
 }
-
-
 function cambiarImgen2(){
     imagenes.setAttribute('src', 'assets/succulents-1.jpg');
 }
-
 imagenes.addEventListener("mouseover",cambiarImgen);
 imagenes.addEventListener("mouseout",cambiarImgen2);
 
@@ -26,6 +23,5 @@ btnLogin.addEventListener("click",alerta);
 let cookies =  document.querySelector("#accept");
 function remover(){
     cookies.remove();
-    
-  }
+}
 cookies.addEventListener("click",remover);

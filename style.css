@@ -1,10 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:sans-serif;
-    border: 1px solid black;
+    font-family:sans-serif; 
 }
-
 .container{
     margin-left: 150px;
     margin-right: 150px;
@@ -53,12 +51,10 @@
     width: 25px;
     height: 25px;
 }
-
 .carrito{
     width: 40px;
     height: 40px;
 }
-
 .login{
     display: flex;
     justify-content: center;
@@ -90,10 +86,8 @@
     flex-direction: row;   
 }
 .nav{
-
     display: flex;
     justify-content: space-between;
-
 }
 .title2{
     font-size: 35px;
@@ -119,13 +113,9 @@
     text-align: center;
     padding-left: 20px;
 }
-
-.img-izq{
-
-}
 .img-izq-discover{
     width: 325px;
-    height: 325px;
+    height: 330px; 
 }
 .text-discover{
     color: white;
@@ -143,14 +133,10 @@
     height: 25px;
     margin-left: 10px;
 }
-.img-izq{
-    height: 322px;
-}
-.container2{
+.recuadro{
     display: flex;
     flex-direction: row;
 }
-
 .cua-der{    
     color: white;
     font-size: 20px; 
@@ -177,16 +163,12 @@
     background-color: rgb(40, 171, 175);
     align-items: center;
     padding: 25px; 
-
 }
 .plants{  
     margin-top: 20px;
-
     justify-content: space-between;
     background-color:#76D7C4 ;
     margin-bottom: 30px;
-   
-
 }
 .list-plants{
     display: flex;
@@ -199,44 +181,35 @@
     height: 120px;
     border-radius:50%;
     margin-left: 15px;
-
 }
 .list{
-    
     list-style-type: none; 
     margin: 8px 0px 10px 0px; 
-
 }
 .name-plants{    
     margin-top:20px;
     text-align: center;
     font-size: 20px;
-
 }
 
-/*desde aqui son las clases de las cookies*/
 .cookies{
- 
     background-color:rgb(232, 234, 236);  
     border: 2px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
     position: fixed;
     bottom:0px;
-   width:  1040px;
- 
+    width:  1040px;
 }
-    
 .img-cookies{
     border-radius:150px;
     margin-left: 20px;
 }
-
 .sec-cookies{
     display: flex;
     flex-direction: row;
 }
-.sec-cookies2{
+.sec-cookies2{2
     display: flex;
     flex-direction: column;
     margin-right: 100px;
@@ -251,10 +224,8 @@
     margin:20px;
     font-weight: 900;
 }
-
 .accept:hover {
     background-color:wheat;
-    
 }
 .p-cookies{
     font-size: 18px;
