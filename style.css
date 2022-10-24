@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    align-items: center;
+}
+.logo{
+    border-radius: 20%;
+    background-color: rgb(40, 171, 175);
+    margin-top:10px;
+}
+.title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.buscar{
+    background-image: url('assets/search-dark.png'); 
+    background-color:#F4F6F6 ;  
+    background-repeat: no-repeat;
+    background-position: 550px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 35px;
+    padding-right:25px;   
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top:10px;  
+}
+.buscar input {
+    width: 98%;
+    font-size: 15px;
+    border: none;
+    margin-left: 5px;
+    height: 28px;
+    border-radius: 20px;
+}
+.img-search{
+    width: 25px;
+    height: 25px;
+}
+
+.carrito{
+    width: 40px;
+    height: 40px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;     
+}
+.navegacion{  
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+}
+li{
+    
+    list-style-type: none;   
+    color: black;
+    margin: 0px 26px 10px 0px; 
+    border: 1px solid blue;
+}
+li a{   
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black; 
+    padding-right: 35px;  
+    font-size: 18px;
+    border: 1px solid red;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;   
+}
+.nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+
+}
+.title2{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+}
+.art-izq{
+    display:flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.cua-izq{
+    background-color: rgb(40, 171, 175);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.discover{
+    margin:10px 15px 0px 10px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+}
+.img-izq-discover{
+    width: 325px;
+    height: 325px;
+}
+.text-discover{
+    color: white;
+    font-size: 30px;
+}
+.discover-arrow-izq{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 30px;
+    align-items: center;    
+}
+.img-izq-arrow{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+.cua-der{    
+    color: white;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column;  
+}
+.aloe{ 
+    margin: 10px 0px 10px 20px;
+    font-size: 15px;
+}
+.img-der-discover{
+    width: 325px;
+    height: 217px;
+}
+.img-der-arrow{
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+}
+.discover-arrow-der{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(40, 171, 175);
+    align-items: center;
+    padding: 25px;    
+}
+.plants{  
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:#76D7C4 ;
+    margin-bottom: 30px;
+
+}
+.list-plants{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;   
+}
+.plants-var{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    margin-left: 5px;
+    padding-right: 15px;
+}
+.list{
+    
+    list-style-type: none;   
+    margin-top:8px;
+    margin-top: 20px;
+}
+
+.name-plants{    
+    margin-top:20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+/*desde aqui son las clases de las cookies*/
+.cookies{
+ 
+    background-color:rgb(232, 234, 236);  
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom:0px;
+   width:  1040px;
+ 
+}
+    
+.img-cookies{
+    border-radius:150px;
+    margin-left: 20px;
+}
+
+.sec-cookies{
+    display: flex;
+    flex-direction: row;
+}
+.sec-cookies2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.accept{
+    background-color:cadetblue;
+    box-shadow: 2px 2px 2px black;  
+    width: 150px;
+    height: 30px;
+    text-align: center; 
+    margin:20px;
+    font-weight: 900;
+}
+
+.accept:hover {
+    background-color:wheat;
+    
+}
+.p-cookies{
+    font-size: 18px;
+    margin: 15px 0px 0px 0px;
+}
